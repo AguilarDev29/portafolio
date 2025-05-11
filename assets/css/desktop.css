@@ -42,7 +42,6 @@ body {
 
 
 main {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,4 +99,73 @@ footer {
     height: 10vh;
     color: #f2f2f2;
     gap: 0.3rem;
+}
+
+.main-projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-projects h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 8rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 35%;
+    height: 90%;
+    background-color: #636363;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.network-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: #000 solid 2px;
+}
+
+.contact-me form {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+
 }
