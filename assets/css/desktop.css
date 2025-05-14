@@ -23,6 +23,13 @@ body {
 
     border-radius: 30%;
     padding: 0.8rem;
+
+    &:hover {
+        color: #000;
+        background-color: rgba(58, 58, 58, 0.349);
+        transform: scale(1.1);
+        transition: 1.19s;
+    }
 }
 
 .nav-item-link {
@@ -33,12 +40,6 @@ body {
     color: #f2f2f2;
 }
 
-.nav-item:hover {
-    color: #000;
-    background-color: rgba(58, 58, 58, 0.349);
-    transform: scale(1.1);
-    transition: 1.19s;
-}
 
 
 main {
@@ -136,6 +137,7 @@ footer {
 .project-img {
     width: 100%;
     border-radius: 0;
+
 }
 
 .networks {
@@ -146,26 +148,84 @@ footer {
     gap: 2rem;
 }
 
+.networks h2 {
+    font-size: 3rem;
+}
+
+.main-networks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
 
 .network-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 }
 
 .contact-me {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 80%;
-    justify-content: center;
+    height: 75%;
+    justify-content: space-around;
     align-items: center;
     gap: 1rem;
     border: #000 solid 2px;
+    padding: 1rem;
+}
+
+.contact-me h2 {
+    font-size: 3rem;
 }
 
 .contact-me form {
-    display: grid;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 100%;
+    align-items: center;
+}
 
+.input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: #000 solid 2px;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+
+    &:focus {
+        background-color: #f2f2f28c;
+        outline: none;
+        border: #000 solid 2px;
+    }
+}
+
+
+.contact-me form button {
+    width: 50%;
+    height: 3rem;
+    border-radius: 5px;
+    border: #000 solid 2px;
+    background-color: #636363;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+
+    &:hover {
+        background-color: #f2f2f2;
+        color: #000;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+
+.text {
+    height: 100%;
 }
