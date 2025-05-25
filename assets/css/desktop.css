@@ -118,7 +118,7 @@ body {
 }
 
 .my-description p {
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue",'Courier New', Courier, monospace cursive;
     font-size: 1.3rem;
 }
 
@@ -199,7 +199,7 @@ footer {
 
 .project-description {
     color: #f2f2f2;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue",'Courier New', Courier, monospace cursive;
 }
 
 
