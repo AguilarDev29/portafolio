@@ -1,0 +1,102 @@
+@media screen and (max-width: 800px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .section-name {
+         width: 100%;
+    }
+    .section-name h2{
+        font-size: 3rem;
+    }
+    .section-name h3 {
+        font-size: 2rem;
+    }
+
+    .my-description {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .photo {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 50%;
+    }
+
+    .card {
+        width: 50%;
+        height: auto;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-img {
+        width: 40vw;
+    }
+
+    .technology-img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .main-networks {
+        flex-direction: row;
+    }
+
+    .network-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .section-name h2 {
+        font-size: 2.5rem;
+    }
+    .section-name h3 {
+        font-size: 1.5rem;
+    }
+    .my-description {
+        font-size: 1.2rem;
+    }
+    .card {
+        width: 75%;
+        padding: 0.5rem;
+    }
+
+    .project-img {
+        width: 60vw;
+    }
+    .technology-img {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .main-networks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .network-logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .contact-me {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    .contact-me h2 {
+        font-size: 2rem;
+    }
+    
+}
